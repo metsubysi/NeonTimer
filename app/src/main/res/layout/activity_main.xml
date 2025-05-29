@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#121212"
+    tools:context=".MainActivity">
+
+    <!-- Контейнер для содержимого -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Надпись, если событий нет -->
+        <TextView
+            android:id="@+id/no_events_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_events_text"
+            android:textSize="18sp"
+            android:textColor="#8C8B8B"
+            android:visibility="visible"/>
+
+        <!-- RecyclerView для списка событий -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/event_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+    <!-- Кнопка "Добавить событие", прижата к низу -->
+    <Button
+        android:id="@+id/add_event_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/add_event_button"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
