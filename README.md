@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="image/ico.png" alt="App Icon" width="150">
+</p>
 # Event Tracker
 
 Event Tracker is a simple and modern Android application with a neon-style interface.  
