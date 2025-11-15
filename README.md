@@ -55,3 +55,20 @@ Perfect for habits and lifestyle tracking:
 6. Manage and remove events whenever needed  
 
 ---
+
+## 🚀 Installation
+
+1. Clone this repository:
+
+git clone https://github.com/metsubysi/NeonTimer.git
+
+2. Open the project in Android Studio  
+3. Run it on a device or emulator
+
+---
+
+## 🧑‍💻 Author
+
+Serhii Solodovnyk  
+Android Developer (Kotlin & Java)  
+Play Market: *your link here*
