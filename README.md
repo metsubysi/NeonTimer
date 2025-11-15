@@ -71,4 +71,4 @@ git clone https://github.com/metsubysi/NeonTimer.git
 
 Serhii Solodovnyk  
 Android Developer (Kotlin & Java)  
-Play Market: *your link here*
+Play Market: https://play.google.com/store/apps/details?id=com.oplle.neon_timer
